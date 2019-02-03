@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby'
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
@@ -70,6 +70,9 @@ const Logo = styled(Link)`
   margin-left: 1rem;
   :hover {
     color: #FFFFFF;
+  }
+  @media (max-width: 768px) {
+    margin-left: 3em;
   }
   @media (min-width: 769px) {
     margin-left: 0;

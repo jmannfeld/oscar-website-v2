@@ -3,9 +3,9 @@ import styled from 'styled-components';
 
 const DrawerToggleButton = props => (
   <HamburgerButton onClick={props.click}>
-    <Line></Line>
-    <Line></Line>
-    <Line></Line>
+    <Line />
+    <Line />
+    <Line />
   </HamburgerButton>
 );
 
@@ -20,7 +20,7 @@ const HamburgerButton = styled.button`
   padding: 0;
   box-sizing: border-box;
   cursor: pointer;
-  :focus {
+  &:focus {
     outline: none;
   }
 `;

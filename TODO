@@ -1,0 +1,15 @@
+'Cmd/Ctrl+Enter' // Triggers `Todo: Toggle Box`
+'Alt+D' // Triggers `Todo: Toggle Done`
+'Alt+C' // Triggers `Todo: Toggle Cancelled`
+'Alt+S' // Triggers `Todo: Toggle Start`
+'Cmd/Ctrl+Shift+A' // Triggers  `Todo: Archive`
+
+Overall:
+  ☐ global styled components with defined colors
+  ☐ center div with text phrases
+  ☐ refactor index.js to be <Image> with color props
+
+
+Index:
+  ☐ fix media queries for MainText
+  ☐ slide in text phrases

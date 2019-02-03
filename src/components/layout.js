@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-import { StaticQuery, graphql } from 'gatsby'
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { StaticQuery, graphql } from 'gatsby';
 import styled from 'styled-components';
 
 import 'font-awesome/css/font-awesome.min.css';
-import './layout.css'
+import './layout.css';
 
-import Toolbar from './toolbar/toolbar';
+import Toolbar from './Toolbar/Toolbar';
 import SideDrawer from './SideDrawer/SideDrawer';
 import Backdrop from './Backdrop/Backdrop';
 
@@ -33,10 +33,10 @@ class Layout extends Component {
     }
     return (
       <Site>
-        <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
-        <SideDrawer show={this.state.sideDrawerOpen} />;
+        <Toolbar drawerClickHandler={this.drawerToggleClickHandler} className="toolbar" />
+        <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
-        <Page >
+        <Page>
           {this.props.children}
         </Page>
       </Site>
@@ -44,7 +44,7 @@ class Layout extends Component {
   }
 }
 
-export default () => (
+export default ({ children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -56,20 +56,27 @@ export default () => (
       }
     `}
     render={(data) => (
-      <Layout />
+      <Layout>{children}</Layout>
     )}
   />
 )
 
 const Site = styled.div`
-  height: 100%;
+  display: grid;
+  grid-template-rows: 72px 1fr;
+  grid-template-areas:
+    "toolbar"
+    "page";
+
+  .toolbar {
+    position: sticky;
+    z-index: 50;
+    grid-area: toolbar;
+  }
 `;
 
 const Page = styled.div`
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 0px 1.0875rem 1.45rem;
-  margin-top: 72px;
+  grid-area: page;
 `;
 
 Layout.propTypes = {
