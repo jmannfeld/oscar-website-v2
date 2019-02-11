@@ -30,7 +30,7 @@ const Toolbar = props => (
 export default Toolbar;
 
 const ToolbarContainer = styled.header`
-  width: 100%;
+  width: 100vw;
   position: fixed;
   background-color: #131313;
   height: 72px;

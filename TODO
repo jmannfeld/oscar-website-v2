@@ -6,10 +6,15 @@
 
 Overall:
   ☐ global styled components with defined colors
-  ☐ center div with text phrases
+  ✔ center div with text phrases @done(19-02-10 23:59)
   ☐ refactor index.js to be <Image> with color props
+  ☐ favicon
 
 
 Index:
   ☐ fix media queries for MainText
   ☐ slide in text phrases
+
+
+Music:
+  ☐ API calls to soundcloud
