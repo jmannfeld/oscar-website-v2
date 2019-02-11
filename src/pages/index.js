@@ -8,17 +8,16 @@ import SlidingWords from '../components/SlidingWords/SlidingWords';
 
 class IndexPage extends Component {
   render() {
-
     return (
       <Layout>
-        <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+        <SEO title="Home" keywords={[`oscar`, `arriaga`]} />
         <SlidingWords />
         <ImageConatiner>
           <MainImage fluid={this.props.data.passionImage.childImageSharp.fluid} />
           <SubImage1 fluid={this.props.data.expressionImage.childImageSharp.fluid} />
           <SubImage2 fluid={this.props.data.concertImage.childImageSharp.fluid} imgStyle={{ 'objectPosition': 'top' }} />
           <SubImage3 fluid={this.props.data.writingImage.childImageSharp.fluid} />
-        </ImageConatiner >
+        </ImageConatiner>
       </Layout>
     );
   }
@@ -99,7 +98,6 @@ const SubImage3 = styled(Img)`
     width: 100%;
   }
 `;
-
 
 export const query = graphql`
   query ImageQuery {

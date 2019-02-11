@@ -12,8 +12,9 @@ Overall:
 
 
 Index:
-  ☐ fix media queries for MainText
-  ☐ slide in text phrases
+  ☐ fix media queries for Index page text
+  ✔ slide in text phrases @done(19-02-11 09:22)
+  ☐ update SlidingWords to use children props
 
 
 Music:
