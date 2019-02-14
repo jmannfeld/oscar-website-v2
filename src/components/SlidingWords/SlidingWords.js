@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styled from 'styled-components';
-import { CSSTransition, TransitionGroup, } from 'react-transition-group';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 class SlidingWords extends Component {
   state = {
