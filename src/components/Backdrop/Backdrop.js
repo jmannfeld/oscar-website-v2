@@ -12,7 +12,7 @@ const Overlay = styled.div`
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.3);
-  z-index: 100;
+  z-index: 75;
 `;
 
 export default Backdrop;

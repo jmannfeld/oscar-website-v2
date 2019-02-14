@@ -31,7 +31,7 @@ const SideDrawerNav = styled.nav`
   left: 0;
   width: 70%;
   max-width: 300px;
-  z-index: 200;
+  z-index: 100;
   transform: translateX(-100%);
   transition: transform 0.3s ease-out;
 

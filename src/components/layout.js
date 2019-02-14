@@ -70,7 +70,7 @@ const Site = styled.div`
 
   .toolbar {
     position: sticky;
-    z-index: 50;
+    z-index: 25;
     grid-area: toolbar;
   }
 `;

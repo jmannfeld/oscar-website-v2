@@ -43,12 +43,11 @@ export default SlidingWords;
 const WordContainer = styled.div`
   position: absolute;
   top: 25%;
-  z-index: 150;
+  z-index: 50;
   width: 100vw;
 `;
 
 const Word = styled.p`
-  z-index: 650;
   width: fit-content;
   border: 3px solid #5330EB;
   padding: 5px 16px 5px 5px;
