@@ -5,17 +5,21 @@
 'Cmd/Ctrl+Shift+A' // Triggers  `Todo: Archive`
 
 Overall:
-  ☐ global styled components with defined colors
   ✔ center div with text phrases @done(19-02-10 23:59)
-  ☐ refactor index.js to be <Image> with color props
+  ☐ global styled components with defined colors
   ☐ favicon
-
-
+  ☐ fix launch.json
+  ☐ Deploy with Netlify
+  ☐ 404 Page
+  
 Index:
-  ☐ fix media queries for Index page text
   ✔ slide in text phrases @done(19-02-11 09:22)
+  ☐ refactor index.js to be <Image> with color props
+  ☐ fix media queries for Index page text
   ☐ update SlidingWords to use children props
-
 
 Music:
   ☐ API calls to soundcloud
+
+Contact:
+  ☐ Use Netlify forms
