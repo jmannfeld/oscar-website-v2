@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Oscar Arriaga Portfolio`,
-    description: `Portfolio website of Oscar Arriaga`,
+    title: `Oscar Arriaga`,
+    description: `Website of Oscar Arriaga`,
     author: `Jordan Mannfeld`,
   },
   plugins: [
