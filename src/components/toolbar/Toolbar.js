@@ -122,4 +122,7 @@ const SocialMedia = styled.div`
     color: #FFFFFF;
     cursor: pointer;
   }
+  @media (max-width: 414px) {
+    font-size: 18px;
+  }
 `;

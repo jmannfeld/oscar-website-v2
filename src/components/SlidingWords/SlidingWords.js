@@ -19,7 +19,7 @@ class SlidingWords extends Component {
   }
 
   componentDidMount() {
-    this.interval = setInterval(() => this.slide(), 1000);
+    this.interval = setInterval(() => this.slide(), 750);
   }
 
   render() {
@@ -42,28 +42,45 @@ export default SlidingWords;
 
 const WordContainer = styled.div`
   position: absolute;
-  top: 25%;
-  z-index: 50;
+  top: 72px;
   width: 100vw;
+  height: 100vh;
+  .word-list {
+    position: absolute;
+    top: calc(50% - 34px);
+    left: 50%;
+    height: 360px;
+    transform: translate(-50%, -50%);
+    @media (max-width: 414px) {
+      height: 286px;
+    }
+  }
 `;
 
 const Word = styled.p`
   width: fit-content;
   border: 3px solid #5330EB;
-  padding: 5px 16px 5px 5px;
-  margin: 40px auto;
+  padding: 2px 17px 5px 5px;
+  margin: 20px auto;
   background: #131313;
-  color: #191919;
+  transform: skew(-6deg);
+  color: #19191957;
   text-shadow: rgba(83, 48, 235, 0.9) 2px 2px;
   font-family: 'Raleway', sans-serif;
   font-style: italic;
-  font-size: 5vmin;
-  line-height: 1.5em;
+  font-size: 2em;
+  line-height: 1.4em;
   transition: transform 0.3s ease-out;
-  &.slide-enter {
-    transform: skew(-2deg) translateX(300%);
+  @media (max-width: 414px) {
+    font-size: 1.5em;
+    border: 2px solid #5330EB;
+    padding: 3px 15px 5px 5px;
+    text-shadow: rgba(83, 48, 235, 0.9) 1px 1px;
   }
+  &.slide-enter {
+    transform: translateX(300%);
+  
   &.slide-enter-active {
-    transform: skew(-2deg) translateX(0);
+    transform: translateX(0) skew(-6deg);
   }
 `;

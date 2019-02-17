@@ -16,8 +16,8 @@ Overall:
 Index:
   ✔ slide in text phrases @done(19-02-11 09:22)
   ☐ refactor index.js to be <Image> with color props
-  ☐ fix media queries for Index page text
-  ☐ update SlidingWords to use children props
+  ✔ fix media queries for Index page text @done(19-02-17 16:56)
+  ✘ update SlidingWords to use children props @cancelled(19-02-17 16:56)
 
 Music:
   ☐ API calls to soundcloud
