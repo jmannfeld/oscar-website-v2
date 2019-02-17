@@ -79,7 +79,7 @@ const Word = styled.p`
   }
   &.slide-enter {
     transform: translateX(300%);
-  
+  }
   &.slide-enter-active {
     transform: translateX(0) skew(-6deg);
   }
