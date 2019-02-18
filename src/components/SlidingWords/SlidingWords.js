@@ -22,6 +22,10 @@ class SlidingWords extends Component {
     this.interval = setInterval(() => this.slide(), 750);
   }
 
+  componentWillUnmount() {
+    clearInterval(this.interval);
+  }
+
   render() {
     const { slidenWords } = this.state;
     return (

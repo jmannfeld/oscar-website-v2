@@ -100,7 +100,7 @@ const ConcertImage = styled(Img)`
 `;
 
 export const query = graphql`
-  query ImageQuery {
+  query HomepageImageQuery {
     passionImage: file(relativePath: { eq: "beats.jpg" }) {
       ...fluidImage
     }
