@@ -9,7 +9,7 @@ export const MainContainer = styled.div`
 export const PageTitle = (props) => (
   <TitleContainer>
     <Title>{props.title}</Title>
-    <SubTitle>{props.subtitle}</SubTitle>
+    {props.subtitle ? <SubTitle>{props.subtitle}</SubTitle> : null}
   </TitleContainer>
 )
 
