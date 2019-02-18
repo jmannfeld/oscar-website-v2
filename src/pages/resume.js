@@ -40,7 +40,7 @@ const ResumePage = () => {
             <li>Helped customers find products and make their shopping experience easy and enjoyable</li>
           </ul>
           <small>MAY 2013 - DECEMBER 2013</small>
-          <h4>Jersey’s Cafe, Carmel - <i>Server</i></h4>
+          <h4>Jersey's Cafe, Carmel - <i>Server</i></h4>
           <ul>
             <li>Worked a in fast paced facility to give the customer the best experience possible</li>
             <li>Was a team player when it came to getting the job done</li>
