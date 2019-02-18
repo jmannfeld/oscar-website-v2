@@ -5,23 +5,35 @@
 'Cmd/Ctrl+Shift+A' // Triggers  `Todo: Archive`
 
 Overall:
-  ✔ center div with text phrases @done(19-02-10 23:59)
   ☐ global styled components with defined colors
   ☐ favicon
   ☐ fix launch.json
   ☐ Deploy with Netlify
-  ☐ 404 Page
   ☐ Update README
   
 Index:
-  ✔ slide in text phrases @done(19-02-11 09:22)
   ☐ refactor index.js to be <Image> with color props
-  ✔ fix media queries for Index page text @done(19-02-17 16:56)
-  ✘ update SlidingWords to use children props @cancelled(19-02-17 16:56)
+
+Gallery:
+  ☐ Add media queries
 
 Music:
   ☐ API calls to soundcloud or
   ☐ Convert soundcloud iframes to markdown
+  ☐ Add media queries
 
 Contact:
   ☐ Use Netlify forms
+
+404:
+  ☐ Add image or styling
+
+Components:
+  ☐ Add optional right box to PageTitle
+
+Archive:
+  ✔ 404 Page @done(19-02-17 21:53) @project(Overall)
+  ✔ center div with text phrases @done(19-02-10 23:59) @project(Overall)
+  ✔ slide in text phrases @done(19-02-11 09:22) @project(Index)
+  ✔ fix media queries for Index page text @done(19-02-17 16:56) @project(Index)
+  ✘ update SlidingWords to use children props @cancelled(19-02-17 16:56) @project(Index)
