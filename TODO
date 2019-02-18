@@ -20,7 +20,8 @@ Index:
   ✘ update SlidingWords to use children props @cancelled(19-02-17 16:56)
 
 Music:
-  ☐ API calls to soundcloud
+  ☐ API calls to soundcloud or
+  ☐ Convert soundcloud iframes to markdown
 
 Contact:
   ☐ Use Netlify forms

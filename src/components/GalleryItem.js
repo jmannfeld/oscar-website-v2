@@ -8,7 +8,7 @@ const GalleryItem = (props) => (
       <h3>{props.title}</h3>
       <p>{props.description}</p>
     </div>
-    <a href={props.link} target="_blank"><GalleryImage fluid={props.imageFluid} alt={props.imgAltText} /></a>
+    <a href={props.link} target="_blank" rel="noopener noreferrer"><GalleryImage fluid={props.imageFluid} alt={props.imgAltText} /></a>
   </ItemConatiner>
 )
 export default GalleryItem;
