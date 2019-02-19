@@ -37,6 +37,7 @@ const ToolbarContainer = styled.header`
   line-height: 72px;
   top: 0;
   left: 0;
+  z-index: 50;
   a {
     color: #5330EB;
     text-decoration: none;
