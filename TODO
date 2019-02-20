@@ -10,6 +10,7 @@ Overall:
   ☐ fix launch.json
   ☐ Deploy with Netlify
   ☐ Update README
+  ☐ Custom music player at the bottom using widget api
   
 Index:
   ☐ refactor index.js to be <Image> with color props
