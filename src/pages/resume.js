@@ -12,7 +12,17 @@ const ResumePage = () => {
       <SEO title="Resume" />
       <MainContainer>
         <Resume>
-          <PageTitle title="Resume" subtitle={`Oscar Arriaga - ${year}`} />
+          <PageTitle title="Resume" subtitle={`Oscar Arriaga - ${year}`} include/>
+          <ContactInfo>
+            <div class="address">
+              <i>1608 N Janney<br />
+                Muncie, IN 47304</i><br />
+                317-970-0276<br />
+              <a href="mailto:oaarriaga@bsu.edu" id="contact">oaarriaga@bsu.edu</a>
+            </div>
+            <button><a href="oscar_arriaga_resume.pdf" download>DOWNLOAD</a></button>
+          </ContactInfo>
+          <div className="resume-wrapper">
 
           <ResumeHeading>SKILLS</ResumeHeading>
           <p>Experienced Web Developer* Audio Engineer* Music Producer* Video Editor* Bilingual*</p>
@@ -45,6 +55,7 @@ const ResumePage = () => {
             <li>Worked a in fast paced facility to give the customer the best experience possible</li>
             <li>Was a team player when it came to getting the job done</li>
           </ul>
+          </div>
         </Resume>
       </MainContainer>
     </Layout>
@@ -54,6 +65,14 @@ const ResumePage = () => {
 export default ResumePage;
 
 const Resume = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 20vw;
+  .resume-wrapper {
+    grid-column: span 2;
+  }
+  .education-text {
+    padding-top: 5px;
+  }
   small {
     color: #daa076;
   }
@@ -65,10 +84,16 @@ const Resume = styled.div`
     margin-bottom: 0;
     line-height: 1.8;
   }
-  .education-text {
-    padding-top: 5px;
-  }
+  `;
+
+const ContactInfo = styled.div`
+  /* position: absolute; */
+  /* top: 0; */
+  /* right: 0; */
+  /* float: right; */
+  /* width: 500px; */
 `;
+
 
 const ResumeHeading = styled.h3`
   margin-top: 30px;
