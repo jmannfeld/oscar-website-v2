@@ -15,16 +15,19 @@ export const PageTitle = (props) => (
 
 const TitleContainer = styled.div`
   margin-bottom: 45px;
+  @media (max-width: 650px) {
+    margin-bottom: 10px;
+  }
 `;
-
 
 const Title = styled.h1`
   color: #e17121;
   font-size: 4em;
   font-weight: 900;
   font-family: 'Raleway', sans-serif;
+  margin-bottom: .5rem;
   @media (max-width: 414px) {
-    font-size: 3em;
+    font-size: 3.25em;
   }
 `;
 
@@ -34,9 +37,9 @@ const SubTitle = styled.h2`
   font-weight: 900;
   font-family: 'Raleway', sans-serif;
   @media (max-width: 414px) {
-    font-size: 1em;
+    font-size: 1.2em;
   }
   @media (max-width: 320px) {
-    font-size: .75em;
+    font-size: 1.15em;
   }
 `;

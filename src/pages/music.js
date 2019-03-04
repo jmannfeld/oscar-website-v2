@@ -13,7 +13,7 @@ class MusicPage extends Component {
       <Layout>
         <SEO title="Music" />
         <MainContainer>
-          <PageTitle title="Music" subtitle="Find me on SoundCloud." />
+          <PageTitle title="Music" subtitle="Find me on SoundCloud ✌️" />
           <MusicDescription>
             <p>Born in the Windy City of Chicago, Illinois, where he was exposed to many forms of genres of music. As a child, he would get a lot of his hip hop influence from his father, with Eminem, 50 cent, and Lil Wayne always in rotation. He has been writing all of his life from short stories he would come up in his head and begin to write poetry at the age of 12. As he continued his education, he continued to write in all of his classes, working on his craft. Every now and then, he would get the idea to become a rapper of the sort, but never was confident enough or never thought he had a good rapping voice that people would want to listen to. As he got older, he started to listen to a lot of Kid Cudi and Kanye West and was heavily inspired by their talent and their drive to push the musical agenda for music as a whole. He started making beats his first year of college after flunking out of music theory in high school. Currently based in Indianapolis, he has been producing music for all sorts of music genres for about 5 years now where he raps, sings, and produces a lot of his own material to share with the world as he starts to develop a loyal following towards his music. He met Joseph Luker on the internet (Owner of SociopathicRecords) and is currently signed with him, to produce his first major debut album coming 2019.</p>
             <Img fluid={performingImage} className='performing' />

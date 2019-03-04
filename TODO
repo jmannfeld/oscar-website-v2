@@ -30,10 +30,8 @@ Contact:
 404:
   ☐ Add image or styling
 
-Components:
-  ☐ Add optional right box to PageTitle
-
 Archive:
+  ✔ Add optional right box to PageTitle @done(19-03-03 22:31) @project(Components)
   ✔ 404 Page @done(19-02-17 21:53) @project(Overall)
   ✔ center div with text phrases @done(19-02-10 23:59) @project(Overall)
   ✔ slide in text phrases @done(19-02-11 09:22) @project(Index)
