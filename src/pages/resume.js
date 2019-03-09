@@ -11,7 +11,7 @@ const ResumePage = () => {
     <Layout>
       <SEO title="Resume" />
       <MainContainer>
-        <Resume>
+        <ResumeWrapper>
           <PageTitle title="Resume" subtitle={`Oscar Arriaga - ${year}`} include />
           <ContactInfo>
             <div className="address">
@@ -55,7 +55,7 @@ const ResumePage = () => {
               <li>Was a team player when it came to getting the job done</li>
             </ul>
           </div>
-        </Resume>
+        </ResumeWrapper>
       </MainContainer>
     </Layout>
   )
@@ -63,7 +63,7 @@ const ResumePage = () => {
 
 export default ResumePage;
 
-const Resume = styled.div`
+const ResumeWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(70%, 1fr));
   grid-gap: 30px;
