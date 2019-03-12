@@ -19,10 +19,10 @@ const ContactPage = (query) => (
           <p>Hey! Feel free to get in contact with me. Text/call 317-970-0276 or email me at <a href="mailto:oarriaga@bsu.edu">oarriaga@bsu.edu</a>.</p>
           <form name="contact" method="POST" netlify>
             <p>Name</p> <input type="text" name="name" />
-            <p>Email</p> <input type="text" name="email" />
-            <p>Phone</p> <input type="text" name="phone" />
+            <p>Email</p> <input type="email" name="email" />
+            <p>Phone</p> <input type="tel" name="phone" />
             <p>Message</p><textarea name="message" rows="10" cols="25"></textarea><br />
-            <input type="submit" value="SEND" />
+            <button type="submit">SEND</button>
           </form>
         </ContactForm>
         <SocialMedia>
@@ -134,7 +134,7 @@ const ContactForm = styled.div`
   form {
     padding-top: 20px;
   }
-  input, textarea {
+  button, input, textarea {
     width: 100%;
     height: 50px;
     border: 2px solid #e17121;
@@ -150,7 +150,7 @@ const ContactForm = styled.div`
     height: 80px;
     padding-top: 10px;
   }
-  input[type=submit] {
+  button {
     background-color: #e17121;
     cursor: pointer;
   }
