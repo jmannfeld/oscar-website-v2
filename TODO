@@ -12,6 +12,7 @@ Overall:
   ☐ Custom music player at the bottom using widget api
   ☐ Use React hooks
   ☐ Close sidebar if you click current page's link
+  ☐ Fix Prettier settings
   
 Index:
   ☐ refactor index.js to be <Image> with color props
@@ -24,10 +25,14 @@ Music:
   ☐ Convert soundcloud iframes to markdown
   ☐ Add media queries
 
+Contact:
+  ☐ Form redirect 
+
 404:
   ☐ Add image or styling
 
 Archive:
+  ✔ Remove extra toolbar component @done(19-03-12 01:19) @project(Overall)
   ✔ Use Netlify forms @done(19-03-11 23:27) @project(Contact)
   ✔ Deploy with Netlify @done(19-03-11 23:22) @project(Overall)
   ✔ Colors hover for social links @done(19-03-11 21:52) @project(Contact)
