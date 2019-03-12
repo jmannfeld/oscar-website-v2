@@ -15,8 +15,11 @@ export const PageTitle = (props) => (
 
 const TitleContainer = styled.div`
   margin-bottom: 45px;
-  @media (max-width: 650px) {
+  @media (max-width: 768px) {
     margin-bottom: 10px;
+  }
+  @media (max-width: 414px) {
+    margin-bottom: 5px;
   }
 `;
 
@@ -25,9 +28,14 @@ const Title = styled.h1`
   font-size: 4em;
   font-weight: 900;
   font-family: 'Raleway', sans-serif;
-  margin-bottom: .5rem;
   @media (max-width: 414px) {
     font-size: 3.25em;
+  }
+  @media (max-width: 375px) {
+    font-size: 3em;
+  }
+  @media (max-width: 320px) {
+    font-size: 2.6em;
   }
 `;
 
