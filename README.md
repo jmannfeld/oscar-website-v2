@@ -1,5 +1,7 @@
 # Oscar's Website v2 with Gatsby
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/81f1fbee-7789-42e3-9c51-21603d730322/deploy-status)](https://app.netlify.com/sites/oscararriaga/deploys)
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
