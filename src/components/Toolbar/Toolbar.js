@@ -20,8 +20,8 @@ const Toolbar = props => (
         </ul>
       </MainNav>
       <SocialMedia>
-        <a href="https://twitter.com/IlluminatiRey"><i className="fa fa-twitter"></i></a>
-        <a href="https://www.instagram.com/illuminatirey/"><i className="fa fa-instagram"></i></a>
+        <a href="https://twitter.com/IlluminatiRey" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/illuminatirey/" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
       </SocialMedia>
     </Navigation>
   </ToolbarContainer>

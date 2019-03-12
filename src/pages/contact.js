@@ -1,4 +1,5 @@
 import React from 'react'
+import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -27,9 +28,9 @@ const ContactPage = (query) => (
         </ContactForm>
         <SocialMedia>
           <i>Find me on Social Media</i><br /> 
-          <FontAwesomeIcon icon={faTwitter} />&nbsp;&nbsp;<a href="https://twitter.com/IlluminatiRey" id="contact">Twitter</a><br />
-          <FontAwesomeIcon icon={faInstagram} />&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/illuminatirey/" id="contact">Instagram</a><br />
-          <FontAwesomeIcon icon={faSoundcloud} />&nbsp;&nbsp;<a href="https://soundcloud.com/illuminatiking95" id="contact">SoundCloud</a>
+          <FontAwesomeIcon icon={faTwitter} />&nbsp;&nbsp;<a href="https://twitter.com/IlluminatiRey" id="contact" target="_blank" rel="noopener noreferrer">Twitter</a><br />
+          <FontAwesomeIcon icon={faInstagram} />&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/illuminatirey/" id="contact" target="_blank" rel="noopener noreferrer">Instagram</a><br />
+          <FontAwesomeIcon icon={faSoundcloud} />&nbsp;&nbsp;<a href="https://soundcloud.com/illuminatiking95" id="contact" target="_blank" rel="noopener noreferrer">SoundCloud</a>
         </SocialMedia>
       </ContactWrapper>
     </MainContainer>

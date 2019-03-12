@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
 import { MainContainer, PageTitle } from '../components/LayoutComponents';

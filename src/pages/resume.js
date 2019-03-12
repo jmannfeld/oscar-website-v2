@@ -5,6 +5,8 @@ import Layout from '../components/Layout';
 import { MainContainer, PageTitle } from '../components/LayoutComponents';
 import SEO from '../components/seo';
 
+import pdf from '../downloads/oscar_arriaga_resume.pdf';
+
 const ResumePage = () => {
   const year = new Date().getFullYear();
   return (
@@ -20,7 +22,7 @@ const ResumePage = () => {
                 317-970-0276<br />
               <a href="mailto:oarriaga@bsu.edu" id="contact">oarriaga@bsu.edu</a>
             </div>
-            <button><a href="oscar_arriaga_resume.pdf" download>DOWNLOAD</a></button>
+            <button><a href={pdf} download>DOWNLOAD</a></button>
           </ContactInfo>
           <div className="resume-wrapper">
             <ResumeHeading>SKILLS</ResumeHeading>
