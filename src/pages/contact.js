@@ -17,7 +17,7 @@ const ContactPage = (query) => (
         <ContactImage fluid={query.data.contactImage.childImageSharp.fluid} imgStyle={{ 'objectPosition': '16%' }}/>
         <ContactForm>
           <p>Hey! Feel free to get in contact with me. Text/call 317-970-0276 or email me at <a href="mailto:oarriaga@bsu.edu">oarriaga@bsu.edu</a>.</p>
-          <form action="mail.php" method="POST">
+          <form name="contact" method="POST" netlify>
             <p>Name</p> <input type="text" name="name" />
             <p>Email</p> <input type="text" name="email" />
             <p>Phone</p> <input type="text" name="phone" />

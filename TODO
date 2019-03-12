@@ -8,10 +8,10 @@ Overall:
   ☐ global styled components with defined colors
   ☐ favicon
   ☐ fix launch.json
-  ☐ Deploy with Netlify
   ☐ Update README
   ☐ Custom music player at the bottom using widget api
   ☐ Use React hooks
+  ☐ Close sidebar if you click current page's link
   
 Index:
   ☐ refactor index.js to be <Image> with color props
@@ -24,13 +24,12 @@ Music:
   ☐ Convert soundcloud iframes to markdown
   ☐ Add media queries
 
-Contact:
-  ☐ Use Netlify forms
-
 404:
   ☐ Add image or styling
 
 Archive:
+  ✔ Use Netlify forms @done(19-03-11 23:27) @project(Contact)
+  ✔ Deploy with Netlify @done(19-03-11 23:22) @project(Overall)
   ✔ Colors hover for social links @done(19-03-11 21:52) @project(Contact)
   ✔ Add media queries @done(19-03-11 21:51) @project(Contact)
   ✔ Add optional right box to PageTitle @done(19-03-03 22:31) @project(Components)
