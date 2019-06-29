@@ -23,7 +23,6 @@ Gallery:
 Music:
   ☐ API calls to soundcloud or
   ☐ Convert soundcloud iframes to markdown
-  ☐ Add media queries
 
 Contact:
   ☐ Form redirect 
@@ -32,6 +31,7 @@ Contact:
   ☐ Add image or styling
 
 Archive:
+  ✔ Add media queries @done(19-06-29 19:50) @project(Music)
   ✔ Remove extra toolbar component @done(19-03-12 01:19) @project(Overall)
   ✔ Use Netlify forms @done(19-03-11 23:27) @project(Contact)
   ✔ Deploy with Netlify @done(19-03-11 23:22) @project(Overall)
