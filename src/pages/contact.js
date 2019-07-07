@@ -31,13 +31,31 @@ const ContactPage = queryResults => (
             Hey! Feel free to get in contact with me. Text/call 317-970-0276 or
             email me at <a href="mailto:oarriaga@bsu.edu">oarriaga@bsu.edu</a>.
           </p>
-          <form name="contact" method="POST" data-netlify="true">
-            <p>Name</p> <input type="text" name="name" />
-            <p>Email</p> <input type="email" name="email" />
-            <p>Phone</p> <input type="tel" name="phone" />
-            <p>Message</p>
-            <textarea name="message" rows="10" cols="25" />
-            <br />
+          <form name="contact" netlify>
+            <p>
+              <label htmlFor="name">
+                Name
+                <input type="text" name="name" id="name" />
+              </label>
+            </p>
+            <p>
+              <label htmlFor="email">
+                Email
+                <input type="email" name="email" id="email" />
+              </label>
+            </p>
+            <p>
+              <label htmlFor="phone">
+                Phone
+                <input type="tel" name="phone" id="phone" />
+              </label>
+            </p>
+            <p>
+              <label htmlFor="message">
+                Message
+                <textarea name="message" id="message" rows="10" cols="25" />
+              </label>
+            </p>
             <button type="submit">SEND</button>
           </form>
         </ContactForm>
@@ -194,7 +212,7 @@ const ContactForm = styled.div`
     height: 50px;
     border: 2px solid #e17121;
     border-radius: 4px;
-    margin: 0 0 20px 0;
+    margin: 5px 0 20px 0;
     padding-left: 5px;
     outline: none;
     font-size: 22px;
@@ -208,6 +226,7 @@ const ContactForm = styled.div`
   button {
     background-color: #e17121;
     cursor: pointer;
+    height: 60px;
   }
   @media (max-width: 992px) {
     margin-top: 175px;
