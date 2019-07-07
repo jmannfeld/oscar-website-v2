@@ -31,7 +31,7 @@ const ContactPage = queryResults => (
             Hey! Feel free to get in contact with me. Text/call 317-970-0276 or
             email me at <a href="mailto:oarriaga@bsu.edu">oarriaga@bsu.edu</a>.
           </p>
-          <form name="contact" netlify>
+          <form data-netlify="true" name="contact" method="POST" action="/">
             <p>
               <label htmlFor="name">
                 Name
