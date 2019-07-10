@@ -218,16 +218,16 @@ const ContactForm = styled.div`
     height: 50px;
     border: 2px solid #e17121;
     border-radius: 4px;
-    margin: 5px 0 20px 0;
-    padding-left: 5px;
+    margin: 5px 0 15px 0;
+    padding-left: 7px;
     outline: none;
     font-size: 22px;
     font-family: 'Poppins', sans-serif;
     background-color: #cddcea;
   }
   textarea {
-    height: 80px;
-    padding-top: 10px;
+    height: 100px;
+    padding-top: 7px;
   }
   button {
     background-color: #e17121;
